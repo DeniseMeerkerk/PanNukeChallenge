@@ -3,6 +3,8 @@
 ## Files
 * `ensemble_pipeline_split{1|2|3}.py`
   Using the results of Hover-Net and Micro-Net it outputs mask-like images for the softvote. It calculates the Jaccard score (sklearn) by comparing to the ground truth for the softvote and hardvote ensemble as well as the original methods HoVer-Net and Micro-Net, which is saved in a `.csv` file.
+* `fold3_hardvote.csv` scores for the hardvote ensemble (example for split 1)
+* `fold3_softvote.csv` scores for the softvote ensemble (example for split 1)
 
 ## Images
 ![](https://github.com/DeniseMeerkerk/PanNukeChallenge/blob/master/src/Ensemble/example_score_weight.png)
